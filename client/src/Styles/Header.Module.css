@@ -1,0 +1,18 @@
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 10px auto;
+}
+
+a:hover{
+    color: var(--colorTwo);
+}
+
+/* CLASSES */
+.actions{
+    font-size: 30px;
+    background-color: blue;
+
+}

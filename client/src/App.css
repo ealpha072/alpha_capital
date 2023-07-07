@@ -1,8 +1,29 @@
+
+/*Link to color pallette -->> https://www.shutterstock.com/blog/10-gorgeous-color-schemes-for-websites*/
+
+:root{
+    --colorOne: #0C4A60 ;
+    --colorTwo: #EF6C33;
+    --colorThree: #ABDFF1;
+    --colorFour: #E1DDDB
+  }
+
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+  }
+
+html,
+body,
+#root{
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1{
-    font-size: 48px;
+a{
+    text-decoration: none;
+    color: #586276;
 }
