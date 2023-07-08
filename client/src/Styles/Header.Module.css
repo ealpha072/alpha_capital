@@ -12,7 +12,23 @@ a:hover{
 
 /* CLASSES */
 .actions{
-    font-size: 30px;
-    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 14px;
+}
 
+.academy a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffff;
+    letter-spacing: 1.3px;
+    background-color: var(--colorTwo);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 2em;
+    padding: 15px;
+}
+
+.academy a:hover{
+    transform: translate3d(0,-2px,0);
 }

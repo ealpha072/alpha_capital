@@ -1,0 +1,23 @@
+.backgroundDiv{
+    background-image: url("../Assets/banner_one.webp");
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: brightness(0.7) blur(1px)*/
+}
+
+.backgroundDiv > div{
+    width: 50%;
+    color: rgba(255,255,255, 1);
+    padding: 70px 100px;
+    backdrop-filter: blur(3px); /* Apply a 5px blur effect to the overlay */
+}
+
+.backgroundDiv > div h1{
+    font-size: 62px;
+    line-height: 1.06em;
+    letter-spacing: 0px;
+}
+
+
+
