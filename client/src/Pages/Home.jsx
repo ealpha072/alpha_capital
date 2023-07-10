@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../Styles/Home.module.css'
+import bannerTwo from '../Assets/banner_two.jpg'
 
 const Home = () => {
     return (
@@ -19,6 +20,9 @@ const Home = () => {
                                 <a href=""></a>
                                 <a href=""></a>
                             </div>
+                        </div>
+                        <div className={styles.imageContainer}>
+                            <img src={bannerTwo} alt="" />
                         </div>
                     </div>
                 </div>
