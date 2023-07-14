@@ -49,6 +49,42 @@
     margin: 0em 0em 2em 0em;
 }
 
+/*BANNER BUTTONS*/
+.bannerBtns{
+   width: 75%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.bannerBtns a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 30px;
+    letter-spacing: 1.5px;
+}
+
+.bannerBtns a:first-child{
+    background-color: #001F3F;
+}
+
+.bannerBtns a:first-child:hover{
+    background-color: #ffff;
+    color:#001F3F;
+    border: 1px solid #001F3F;
+}
+
+.bannerBtns a:last-child{
+    background-color: #ffff;
+    color: #001F3F;
+}
+
+.bannerBtns a:last-child:hover{
+    background-color: #001F3F;
+    color: #ffff;
+}
+
 .imageContainer{
     padding-top: 50px;
     height: 550px;

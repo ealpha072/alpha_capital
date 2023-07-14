@@ -5,7 +5,7 @@ import bannerTwo from '../Assets/banner_two.jpg'
 const Home = () => {
     return (
         <div className={styles.homeDiv}>
-            <div>
+            <div className='part_one'>
                 <div className={styles.backgroundDiv}>
                     <div className={styles.blurOverlay}>
                         <div>
@@ -16,9 +16,9 @@ const Home = () => {
                                 through the power of data. We help businesses across AFRICA turn 
                                 data into their greatest asset.
                             </p>
-                            <div className="bannerBtns">
-                                <a href=""></a>
-                                <a href=""></a>
+                            <div className={styles.bannerBtns}>
+                                <a href="">EXPLORE MORE</a>
+                                <a href="">GET A QUOTE</a>
                             </div>
                         </div>
                         <div className={styles.imageContainer}>
@@ -27,7 +27,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
 
         </div>
   )
