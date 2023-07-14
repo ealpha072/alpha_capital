@@ -1,0 +1,43 @@
+.partTwoDiv{
+    margin-top: 100px;
+
+}
+
+.partTwoDiv > div{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    color: var(--colorOne);
+}
+
+.partTwoDiv > div > div:first-child{
+    clip-path: inset(0px 60px 0px 100px); /* Crop the image using the inset function */
+}
+
+.homeAbout{
+    width: 50%;
+}
+
+.homeAbout > *{
+    color: var(--colorOne);
+    margin-bottom: 10px;
+}
+
+.homeAbout h6{
+    color: var(--colorTwo);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.homeAbout h1{
+    font-size: 62px;
+    line-height: 1.06em;
+    letter-spacing: 0px;
+}
+
+.homeAbout p{
+    width: 80%;
+    font-size: 16px;
+    line-height: 2rem;
+}
