@@ -51,6 +51,21 @@ const Home = () => {
                 </div>
             </div>
 
+        <div className={"partThree"}>
+            <div>
+                <div>
+                    <h6>MAIN PRINCIPLES</h6>
+                    <h1>Global Reach with Local Understanding </h1>
+                    <div>
+                        <div>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
         </div>
   )
 }
