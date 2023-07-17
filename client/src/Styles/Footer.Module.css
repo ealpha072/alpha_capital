@@ -1,0 +1,29 @@
+section{
+    background-color: #000000;
+}
+
+footer{
+    display: flex;
+    width: 80%;
+    margin:auto;
+    color: #ffffff;
+}
+
+footer > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.firstDiv{
+    width: 30%;
+}
+
+.firstDiv > div p{
+    font-size: 14px;
+}
+
+.socials a i{
+    color: #ffff;
+}
+
+
