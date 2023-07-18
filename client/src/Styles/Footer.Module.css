@@ -16,14 +16,24 @@ footer > div{
 
 .firstDiv{
     width: 30%;
+    display: flex;
 }
 
 .firstDiv > div p{
     font-size: 14px;
 }
 
+.socials{
+    display: flex;
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
 .socials a i{
     color: #ffff;
+    font-size: 24px;
 }
 
 

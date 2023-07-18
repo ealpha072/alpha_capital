@@ -16,14 +16,22 @@ const Footer = () => {
 						into their greatest asset.
 						</p>
 						<div className={styles.socials}>
-							<a href=""><i class="fa-brands fa-facebook"></i></a>
+							<a href=""><i class="fa fa-facebook"></i></a>
+							<a href=""><i class="fa fa-instagram"></i></a>
+							<a href=""><i class="fa fa-pinterest"></i></a>
+							<a href=""><i class="fa fa-envelope"></i></a>
+							<a href=""><i class="fa fa-twitter"></i></a>
 						</div>
 					</div>
 				</div>
-				<div className={styles.secondDiv}>
 
-				</div>
-				<div className={styles.thirdDiv}>
+				<div className={styles.quickLinks}>  
+					<h3>Quick Links</h3>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Services</a></li>
+					</ul>
 
 				</div>
 			</footer>
