@@ -4,6 +4,7 @@ section{
 
 footer{
     display: flex;
+    justify-content: space-around;
     width: 80%;
     margin:auto;
     color: #ffffff;
@@ -34,6 +35,12 @@ footer > div{
 .socials a i{
     color: #ffff;
     font-size: 24px;
+}
+
+
+
+.quickLinks ul{
+    margin-top: 20px;
 }
 
 

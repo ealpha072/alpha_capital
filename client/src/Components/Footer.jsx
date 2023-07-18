@@ -32,7 +32,24 @@ const Footer = () => {
 						<li><a href="">About Us</a></li>
 						<li><a href="">Services</a></li>
 					</ul>
-
+				</div>
+				<div>
+					<div>
+						<h3>CONTACT</h3>
+						<ul>
+							<li><a href=""><i className='fa fa-envelope'></i>ealpha072@gmai.com</a></li>
+							<li><a href=""><i className='fa fa-telephone'></i>+254-798-975-799</a></li>
+							<li><a href=""><i className='fa fa-telephone'></i>+254-798-975-799</a></li>
+							<li><a href=""><i className='fa fa-map-marker'></i>Westlands, Nairobi, Kenya</a></li>
+						</ul>
+					</div>
+					<div>
+						<h3>NEWSLETTERS</h3>
+						<form action="">
+							<input type="text" />
+							<button type='submit'>Subscribe</button>
+						</form>
+					</div>
 				</div>
 			</footer>
 		</section>
