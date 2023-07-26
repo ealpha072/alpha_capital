@@ -10,10 +10,10 @@ const Footer = () => {
 					<div className="footerLogo">
 						<img src={logo} alt="" width={"60"}/>
 						<p>
-						DATASEAL SOFTWARE transforms how businesses work 
-						and people live through the power of data. 
-						We help businesses across AFRICA turn data 
-						into their greatest asset.
+							DATASEAL SOFTWARE transforms how businesses work 
+							and people live through the power of data. 
+							We help businesses across AFRICA turn data 
+							into their greatest asset.
 						</p>
 						<div className={styles.socials}>
 							<a href=""><i class="fa fa-facebook"></i></a>

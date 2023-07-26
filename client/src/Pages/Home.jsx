@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../Styles/Home.module.css'
 import parttwoStyles from '../Styles/Parttwo.module.css'
+import partthreeStyles from '../Styles/Partthree.module.css'
 import bannerTwo from '../Assets/banner_two.jpg'
 import bannerThree from '../Assets/banner_three.jpg'
 
@@ -51,9 +52,9 @@ const Home = () => {
                 </div>
             </div>
 
-        <div className={"partThree"}>
+        <div className={partthreeStyles.partThreeDiv}>
             <div>
-                <div>
+                <div className={partthreeStyles.homeDiv}>
                     <h6>MAIN PRINCIPLES</h6>
                     <h1>Global Reach with Local Understanding </h1>
                     <div>
