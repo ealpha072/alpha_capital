@@ -4,6 +4,7 @@ import parttwoStyles from '../Styles/Parttwo.module.css'
 import partthreeStyles from '../Styles/Partthree.module.css'
 import bannerTwo from '../Assets/banner_two.jpg'
 import bannerThree from '../Assets/banner_three.jpg'
+import services from '../Styles/Services.module.css'
 
 const Home = () => {
     return (
@@ -52,33 +53,57 @@ const Home = () => {
                 </div>
             </div>
 
-        <div className={partthreeStyles.partThreeDiv}>
-            <div>
-                <div className={partthreeStyles.homeDiv}>
-                    <h6>MAIN PRINCIPLES</h6>
-                    <h1>Global Reach with Local Understanding </h1>
-                    <div className={partthreeStyles.principles}>
-                        <div>
-                            <h6>Exceptional Client Service</h6>
-                            <p>
-                                In healthy companies, changing directions or launching new projects 
-                                means combining underlying strengths and capacities with new energy 
-                                and support.
-                            </p>
-                        </div>
-                        <div>
-                            <h6>Exceptional Client Service</h6>
-                           
-                        </div>
-                        <div>
-                            <h6>Exceptional Client Service</h6>
-                           
+            <div className={partthreeStyles.partThreeDiv}>
+                <div>
+                    <div className={partthreeStyles.homeDiv}>
+                        <h6>MAIN PRINCIPLES</h6>
+                        <h1>Global Reach with Local Understanding </h1>
+                        <div className={partthreeStyles.principles}>
+                            <div>
+                                <h6>Exceptional Client Service</h6>
+                                <p>
+                                    In healthy companies, changing directions or launching new projects 
+                                    means combining underlying strengths and capacities with new energy 
+                                    and support.
+                                </p>
+                            </div>
+                            <div>
+                                <h6>Exceptional Client Service</h6>
+                            
+                            </div>
+                            <div>
+                                <h6>Exceptional Client Service</h6>
+                            
+                            </div>
                         </div>
                     </div>
+                    <div></div>
                 </div>
-                <div></div>
             </div>
-        </div>
+
+            <div className={services.services}>
+                <div>
+                    <h1>Our Services</h1>
+                    <p>
+                        Our design services starts and ends 
+                        with a best in class experience 
+                        strategy that builds brands.
+                    </p>
+                </div>
+
+                <div className={services.servicesDiv}>
+                    <div>
+                        <i></i>
+                        <h3>Financial Services</h3>
+                        <p>
+                            We help financial institutions, from banking and 
+                            insurance to wealth and securities distribution, manage risks.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
 
         </div>
   )
