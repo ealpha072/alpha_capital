@@ -57,9 +57,22 @@ const Home = () => {
                 <div className={partthreeStyles.homeDiv}>
                     <h6>MAIN PRINCIPLES</h6>
                     <h1>Global Reach with Local Understanding </h1>
-                    <div>
+                    <div className={partthreeStyles.principles}>
                         <div>
-                            <p></p>
+                            <h6>Exceptional Client Service</h6>
+                            <p>
+                                In healthy companies, changing directions or launching new projects 
+                                means combining underlying strengths and capacities with new energy 
+                                and support.
+                            </p>
+                        </div>
+                        <div>
+                            <h6>Exceptional Client Service</h6>
+                           
+                        </div>
+                        <div>
+                            <h6>Exceptional Client Service</h6>
+                           
                         </div>
                     </div>
                 </div>
