@@ -5,6 +5,7 @@ import partthreeStyles from '../Styles/Partthree.module.css'
 import bannerTwo from '../Assets/banner_two.jpg'
 import bannerThree from '../Assets/banner_three.jpg'
 import services from '../Styles/Services.module.css'
+import benefits from '../Styles/Benefits.module.css'
 
 const Home = () => {
     return (
@@ -99,8 +100,20 @@ const Home = () => {
                             We help financial institutions, from banking and 
                             insurance to wealth and securities distribution, manage risks.
                         </p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h3>Financial Services</h3>
+                        <p>
+                            We help financial institutions, from banking and 
+                            insurance to wealth and securities distribution, manage risks.
+                        </p>
 
                     </div>
+                </div>
+
+                <div className={benefits.benefits}>
+
                 </div>
 
             </div>
